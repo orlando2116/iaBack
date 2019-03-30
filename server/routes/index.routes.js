@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 
-//configurar cabezeras http
 app.use((req, res, next) => {
 
     res.header('Access-Control-Allow-Origin', '*');
@@ -14,6 +13,5 @@ app.use((req, res, next) => {
 });
 
 app.use(require('./subscription'));
-
 
 module.exports = app;

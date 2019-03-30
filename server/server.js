@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 
 app.use(require('./routes/index.routes'));
 
-console.log(process.env.URLDB);
 mongoose.connect(process.env.URLDB, (err, res) => {
 
     if (err) {
