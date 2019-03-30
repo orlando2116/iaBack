@@ -20,6 +20,3 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = process.env.MONGO_URI;
 }
 //urlDB='mongodb://eeichile_user:duoc.78@ds227674.mlab.com:27674/eeichile_db';
-
-
-process.env.URLDB = urlDB;
