@@ -19,5 +19,5 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
     urlDB = process.env.MONGO_URI;
 }
-
+console.log(urlDB);
 //urlDB='mongodb://eeichile_user:duoc.78@ds227674.mlab.com:27674/eeichile_db';
