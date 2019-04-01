@@ -13,4 +13,4 @@ instalar dependencias
 correr servidor
 
 entrar a proyecto por consola, ejecutar
-node server/server
+<b>node server/server</b>
